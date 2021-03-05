@@ -21,6 +21,6 @@ server:
 
   service:
     ## Defino o tipo do Service 
-    type: NodePort
+    type: LoadBalancer
     ## Definindo a porta que vai ser usada no Service NodePort
     nodePort: 30001
