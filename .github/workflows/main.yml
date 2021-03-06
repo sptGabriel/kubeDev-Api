@@ -66,7 +66,7 @@ jobs:
         uses: Azure/k8s-deploy@v1.3
         with:
           # Path to the manifest files which will be used for deployment.
-          image: 'lostspirit96/trainingkube-api:${{ github.run_number }}'
+          images: 'lostspirit96/trainingkube-api:${{ github.run_number }}'
           manifests: |
             k8s/api/deployment.yaml
             k8s/api/service.yaml            
