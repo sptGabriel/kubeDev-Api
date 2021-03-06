@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: lostspirit96/trainingkube-api:v1.4
+          image: lostspirit96/trainingkube-api
           ports:
           - containerPort: 8080
           env:
